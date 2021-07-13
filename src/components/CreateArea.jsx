@@ -51,7 +51,6 @@ function CreateArea(props) {
       title: "",
       content: ""
     });
-    setTouch(true);
     event.preventDefault();
   }
   function expand() {
