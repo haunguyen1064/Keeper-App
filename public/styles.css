@@ -27,11 +27,11 @@ header h1 {
 }
 
 footer {
-  position: absolute;
   text-align: center;
-  bottom: 0;
   width: 100%;
   height: 2.5rem;
+  clear:both;
+  margin-top: 65vh;
 }
 
 footer p {
@@ -123,6 +123,7 @@ form.create-note p {
   color: red;
 }
 
+
 @media (max-width:550px) {
   .note {
     margin-left: auto;
@@ -137,5 +138,17 @@ form.create-note p {
     float: none;
     margin-left: auto;
     display: block;
+  }
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
+  html {
+    position: relative;
+    min-height: 100%;
+
+  }
+  .footer-padding{
+    padding-bottom: 40px;
   }
 }
